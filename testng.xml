@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/anhntnguyen/IdeaProjects/AmazonTests/src/test/java/amazonautotest">
+        <classes>
+            <class name="amazonautotest.LoginPageTests">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="verifyLoginWithInvalidEmail"/>
+                    <include name="verifyLoginWithBlankEmail"/>
+                    <include name="verifyLoginWithInvalidPassword"/>
+                </methods>
+            </class>
+            <class name="amazonautotest.LoginTests">
+                <methods>
+                    <include name="loginByEmail"/>
+                    <include name="loginByFacebook"/>
+                </methods>
+            </class>
+            <class name="amazonautotest.LoginTests1">
+                <methods>
+                    <include name="loginByEmail1"/>
+                    <include name="loginByFacebook1"/>
+                </methods>
+            </class>
+            <class name="amazonautotest.SearchResultPageTests">
+                <methods>
+                    <include name="verifyPaging"/>
+                    <include name="verifySortByOption"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

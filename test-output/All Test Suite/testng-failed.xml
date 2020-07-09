@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/anhntnguyen/IdeaProjects/AmazonTests/src/test/java/amazonautotest(failed)">
+    <classes>
+      <class name="amazonautotest.LoginPageTests">
+        <methods>
+          <include name="verifyLoginWithInvalidPassword" invocation-numbers="2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- amazonautotest.LoginPageTests -->
+      <class name="amazonautotest.SearchResultPageTests">
+        <methods>
+          <include name="verifySortByOption" invocation-numbers="0"/>
+          <include name="verifyPaging" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- amazonautotest.SearchResultPageTests -->
+    </classes>
+  </test> <!-- C:/Users/anhntnguyen/IdeaProjects/AmazonTests/src/test/java/amazonautotest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

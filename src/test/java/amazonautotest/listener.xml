@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTestSuite">
+    <listeners>
+        <listener class-name="amazonautotest.Listeners"/>
+    </listeners>
+    <test name="LoginTest">
+        <classes>
+            <class name="amazonautotest.LoginTests">
+                <methods>
+                    <include name="loginByEmail"/>
+                    <include name="loginByFacebook"/>
+                </methods>
+            </class>
+            <class name="amazonautotest.LoginTests1">
+                <methods>
+                    <include name="loginByEmail1"/>
+                    <include name="loginByFacebook1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
